@@ -218,3 +218,52 @@ footer {
     color: white;
 }
      
+@media screen and (max-width: 700px) {
+    header {
+    position: static;
+    flex-direction: column;
+    }
+    .nav-bar-items {
+    flex-direction: column;
+    text-align: center;
+    }
+}
+   
+@media screen and (max-width: 700px) {
+    #profile-container {
+    padding-top: 32px;
+    flex-direction: column;
+    }
+    #bio {
+    margin: 16px;
+    padding: 16px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio-card {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .portfolio-card div {
+    width: 100%;
+    margin: 16px;
+    }
+    .portfolio-picture {
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .skill-card {
+    flex: 0 1 47%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .education-card {
+    flex: 0 1 97%;
+    }
+}
+
